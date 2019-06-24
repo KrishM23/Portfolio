@@ -1,0 +1,242 @@
+html{
+  background-image: url(background.png);
+  scroll-behavior: smooth;
+ 
+  background-size: cover;
+  background-position: fixed;
+}
+.navbar{   
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 100;
+  border-radius: 20px;
+  background-color: black;
+  margin-left: 150px;
+  margin-bottom: 10px;
+}
+li{
+  float:left;
+  list-style-type: none;
+}
+.navbar a:hover{
+  color: blue;
+  text-shadow: 2px 2px 2px gray;
+}
+.navbar a{
+text-shadow: 2px 2px 2px blue;
+font-family: 'Ubuntu', sans-serif;
+}
+li a{
+  display: block;
+  color:white;
+  text-align:center;
+  padding: 16px 16px;
+  text-decoration:none;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.title{
+  position: absolute;
+  left: 900px;
+  top: 300px;
+}
+.mySlides{
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  left: 300px;
+  text-align: center;
+  border-radius: 30px;
+
+}
+.slideShow{
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  
+}
+.title{
+  position: absolute;
+  color: rgba(255, 225, 0, 0.995);
+  top: 20%;
+  
+  left: 35%;
+  right: 0;
+  font-size: 50px;
+  
+}
+.quote{
+  position: absolute;
+  color: rgb(247, 22, 22);
+  top : 35%;
+ 
+  left: 30%;
+  right: 0;
+  font-size: 30px;
+  
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  order: 1;
+  border: 2px solid red;
+  width: 45%;
+  background-color: white;
+  border-radius: 25px;
+  font-family: 'Stylish', sans-serif;
+  font-size: 25px;
+  padding-left: 30px;
+  
+}
+.fav_quotes{
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  order: 2;
+  padding-left: 30px;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 25px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Stylish', sans-serif;
+}
+.top_bar{
+  position: absolute;
+  left: 90;
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.721);
+}
+.game_desc{
+  color:white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 300px;
+  font-family: 'Stylish', sans-serif;
+  cursor: pointer;
+}
+
+.hydro_desc{
+  color:white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 500px;
+  font-family: 'Stylish', sans-serif;
+  cursor: pointer;
+}
+
+.port_header{
+  color: white;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+}
+.img_game{
+  border: 2px solid red;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  order: 1;
+  width: 97%;
+  height:400px;
+}
+.hydro_web{
+  border: 2px solid red;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  order: 2;
+  width: 97%;
+  height:400px;
+}
+.container2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.websites_me{
+  display: flex;
+  flex-wrap: wrap;
+  order: 1;
+  width: 50%;
+}
+.websites_me2{
+  display: flex;
+  flex-wrap: wrap;
+  order: 2;
+  width: 50%;
+}
+@media screen and (max-width: 361px){
+  .quote{
+    margin-left: 0px;
+    margin-top: 300px;
+  }
+  .title{
+    margin-top: 200px;
+  }
+  .mySlides{
+    width: 100%;
+    height: 100%;
+    margin-left: -300px;
+    
+  }
+  .fav_quotes{
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .about{
+    margin-left: 50px;
+    
+  }
+  .game_desc{
+    margin-left: 20px;
+  }
+  .hydro_desc{
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .hydro_web{
+    height: 300px;
+  }
+  .img_game{
+    height: 300px;
+  }
+  .fav{
+    margin-left:  -30px;
+  }
+}
+@media screen and (min-width:767px) and (max-width:1000px){
+  .mySlides{
+    margin-left: -300px;
+    width: 100%;
+  }
+  .title{
+    margin-left: -20px;
+  }
+  .quote{
+    margin-left: -60px;
+  }
+  .fav_quotes{
+    margin-left: 380px;
+    margin-top: -240px;
+    height: 230px;
+    font-family: 'Stylish', sans-serif;
+    font-size: 20px;
+  }
+  .game_desc{
+    position: absolute;
+    margin-left: 90px;
+  }
+
+}
